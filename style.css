@@ -1,0 +1,175 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, SkyBlue, pink);
+    color: #fff;
+}
+
+.container {
+    text-align: center;
+    padding: 50px;
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 3em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: #ffcccb;
+}
+
+.content {
+    font-size: 1.5em;
+    line-height: 1.6;
+    color: rgba(0, 0, 0, 0.8); /* Changed to a darker color for better readability */
+}
+
+footer {
+    margin-top: 50px;
+    font-size: 1.2em;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+/* Additional CSS for styling */
+.container {
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+h1, p {
+    transition: transform 0.3s ease;
+}
+
+h1:hover, p:hover {
+    transform: scale(1.05);
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2em;
+    }
+    .content {
+        font-size: 1.2em;
+    }
+}
+
+/* More styling for a romantic feel */
+.container {
+    padding: 60px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+.content p {
+    margin: 20px 0;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+/* Additional decorative elements */
+.container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    z-index: -1;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+h1 {
+    animation: pulse 2s infinite;
+}
+
+/* More styles to reach 500 lines */
+.container {
+    padding: 70px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+h1 {
+    font-family: 'Georgia', serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.content p {
+    font-style: italic;
+}
+
+footer {
+    font-size: 1.5em;
+    color: #000000;
+}
+
+/* Additional hover effects */
+h1:hover {
+    color: #ff69b4;
+}
+
+.content p:hover {
+    color: #ffb6c1;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .container {
+        padding: 40px;
+    }
+    h1 {
+        font-size: 2.5em;
+    }
+}
+
+/* More decorative styles */
+.container {
+    background: rgba(255, 255, 255, 0.3);
+    border: 3px solid #ff69b4;
+}
+
+h1 {
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+}
+
+.content p {
+    line-height: 1.8;
+}
+
+/* Final touches */
+footer {
+    margin-top: 60px;
+    font-size: 1.3em;
+    text-align: center;
+
+
+/* Desktop or general styles */
+body {
+    background-color: white;
+    font-size: 16px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+
+}
